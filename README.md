@@ -1,9 +1,10 @@
-# From-To Chart Layout Optimizer
+# Facility Layout Optimization via From-To Chart Analysis
 
-A small Python tool for solving **facility layout problems** using a
-**From-To Chart** — a matrix that records the flow (traffic intensity)
-between pairs of locations, such as departments in a factory, machines on a
-shop floor, or stations in a warehouse.
+A Python program that evaluates department-arrangement permutations
+against a **From-To flow matrix** to identify the layout minimizing total
+material-handling cost.
+
+**Status:** Course Project, Facilities Planning (2025)
 
 ## Background
 
