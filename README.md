@@ -91,13 +91,13 @@ from_to = pd.DataFrame(0, index=locations, columns=locations)
 from_to.loc["A", "B"] = 15
 from_to.loc["B", "C"] = 30
 from_to.loc["C", "A"] = 5
-# ... fill in the rest of the flows ...
+...
 
 best_order, best_cost, all_results = find_best_layout(from_to)
 print("Best order:", best_order, "Cost:", best_cost)
 ```
 
-Alternatively, open and run `From-to_Table_3.ipynb` in Jupyter for the
+Alternatively, open and run `From-to_Table.ipynb` in Jupyter for the
 original notebook walkthrough.
 
 ## License
